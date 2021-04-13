@@ -12,10 +12,10 @@ php artisan make:migration {{ファイル名（行う操作名createとか）}} 
 
 ### Example
 
-booksテーブルを作成する場合
+todosテーブルを作成する場合
 
 ```
-php artisan make:migration create_books_table --create=books
+php artisan make:migration create_todos_table --create=todos
 ```
 
 ## モデルの作成
@@ -29,8 +29,8 @@ php artisan make:model {{モデル名}}
 
 ### Example
 
-Bookモデルを作成する
+Todoモデルを作成する
 
 ```
-php artisan make:model Book
+php artisan make:model Todo
 ```
